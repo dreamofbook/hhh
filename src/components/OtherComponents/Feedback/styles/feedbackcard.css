@@ -1,0 +1,17 @@
+.feedbackCard{
+    width: 300px;
+    background: #000000;
+    border: 1px solid #333333;
+    border-radius: 20px;
+    padding: 20px;
+    font-family: "SF Pro Display Light", sans-serif;
+    font-size: 16px;
+}
+.feedbackCardBody {
+    color: #ececec;
+}
+
+.feedbackCardPerson {
+    color: #ff74d9;
+    font-family: "SF Pro Display Medium", sans-serif;
+}

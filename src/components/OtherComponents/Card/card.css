@@ -5,6 +5,13 @@
     padding: 30px 30px;
     margin: 5px;
     box-shadow: 0 0 4px #474747;
+    transition: 0.5s all ease-in-out;
+}
+
+.card:hover{
+    box-shadow: 0 0 4px #ff9ae1;
+    scale: 1.02;
+    z-index: -1;
 }
 
 .card .card-content {
@@ -30,3 +37,4 @@
 .card .card-content .card-header{
     font-size: 30px;
 }
+
