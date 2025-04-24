@@ -1,0 +1,67 @@
+@font-face {
+    font-family: "SF Pro Display Regular";
+    src: url("../assets/Fonts/SF-Pro-Display/SF-Pro-Display-Regular.otf") format("woff2");
+    font-weight: auto;
+    font-style: auto;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "SF Pro Display Medium";
+    src: url("../assets/Fonts/SF-Pro-Display/SF-Pro-Display-Medium.otf") format("woff2");
+    font-weight: auto;
+    font-style: auto;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "SF Pro Display Light";
+    src: url("../assets/Fonts/SF-Pro-Display/SF-Pro-Display-Light.otf") format("woff2");
+    font-weight: auto;
+    font-style: auto;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "SF Pro Display Bold";
+    src: url("../assets/Fonts/SF-Pro-Display/SF-Pro-Display-Bold.otf") format("woff2");
+    font-weight: auto;
+    font-style: auto;
+    font-display: swap;
+}
+
+
+.homepage{
+    margin-top: 150px;
+    color: #ececec;
+    width: 100%;
+}
+
+.homepage .text-title {
+    justify-items: center;
+}
+
+.homepage .text-title h1{
+    font-family: "SF Pro Display Medium", sans-serif;
+    font-size: 38px;
+    width: max-content;
+}
+
+.homepage .text-title p{
+    margin-top: 5px;
+    font-family: "SF Pro Display Light", sans-serif;
+    font-size: 20px;
+    color: #a8a8a8;
+    width: max-content;
+}
+
+.homepage .default-button {
+    margin-top: 20px;
+}
+
+.homepage .cards {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

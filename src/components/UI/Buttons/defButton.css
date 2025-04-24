@@ -1,0 +1,17 @@
+.default-button{
+    background: #000000;
+    color: #ececec;
+    height: 60.5px;
+    width: 240px;
+    border: #333333 solid 1px;
+    border-radius: 30px;
+    transition: 0.5s all ease-in-out;
+    z-index: 0;
+}
+
+.default-button:hover{
+    z-index: 0;
+    box-shadow: 0 0 8px #ff9ae1;
+    scale: 1.02;
+}
+

@@ -1,0 +1,32 @@
+.card{
+    background: #000000;
+    border: 1px solid #333333;
+    border-radius: 30px;
+    padding: 30px 30px;
+    margin: 5px;
+    box-shadow: 0 0 4px #474747;
+}
+
+.card .card-content {
+    display: grid;
+    grid-template: 'image header'
+                    '. body';
+    grid-template-columns: 30px 1fr;
+    align-items: center;
+}
+
+.card .text{
+    font-family: 'SF Pro Display Regular', sans-serif;
+}
+
+.card .card-image{grid-area: image; width: max-content;}
+.card .card-header{grid-area: header; width: max-content; margin-left: 15px}
+.card .card-body{grid-area: body; width: 300px; margin-left: 17px; margin-top: 10px; height: 57px;}
+
+.card .card-content .card-image{
+    width: 30px;
+    height: 30px;
+}
+.card .card-content .card-header{
+    font-size: 30px;
+}

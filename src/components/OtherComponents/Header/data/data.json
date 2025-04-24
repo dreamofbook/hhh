@@ -1,0 +1,81 @@
+[
+  {
+    "Title": "Каталог",
+    "menuName": "catalog-menu",
+    "id": 1,
+    "width": 76,
+    "path": "/catalog",
+    "arr": [
+      {
+        "text": "Новости и СМИ",
+        "path": "/catalog#news"
+      },
+
+      {
+        "text": "Бизнес и финансы",
+        "path": "/catalog#busines"
+      },
+
+      {
+        "text": "Образование",
+        "path": "/catalog#study"
+      },
+      {
+        "text": "Блогеры",
+        "path": "/catalog#celebrity"
+      },
+      {
+        "text": "Спорт и мотивация",
+        "path": "/catalog#sport"
+      },
+      {
+        "text": "Технологии IT",
+        "path": "/catalog#technology"
+      }
+    ]
+  },
+
+  {
+    "Title": "Проект",
+    "menuName": "about-menu",
+    "id": 2,
+    "width": 50,
+    "arr": [
+      {
+        "text": "Принцип работы",
+        "path": "/about#howitwork"
+      },
+      {
+        "text": "Преимущества",
+        "path": "/about#advantages"
+      },
+      {
+        "text": "Отзывы",
+        "path": "/about#feedback"
+      }
+    ]
+  },
+
+  {
+    "Title": "Настройки",
+    "menuName": "settings-menu",
+    "id": 3,
+    "width": 76,
+    "arr": [
+      {
+        "text": "Настройки бота",
+        "path": "/settings#bot"
+      },
+
+      {
+        "text": "Настройки профиля",
+        "path": "/settings#profile"
+      },
+
+      {
+        "text": "Поддержка",
+        "path": "/settings#support"
+      }
+    ]
+  }
+]

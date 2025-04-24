@@ -1,0 +1,20 @@
+.Header{
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+}
+
+.Header .wallpaper{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    top: -20px;
+    left: 0;
+    height: 136px;
+    filter: blur(8px);
+    background: #1c1c1c;
+}
