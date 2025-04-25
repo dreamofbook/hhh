@@ -2,6 +2,7 @@
     position: absolute;
     display: flex;
     left: 0;
+    width: 100%;
 }
 
 .carusel .blackOut1, .carusel .blackOut2{
