@@ -8,6 +8,7 @@ import settings from '../assets/image/settings.svg';
 import DefaultButton from "../components/UI/Buttons/DefaultButton.jsx";
 import Card from "../components/OtherComponents/Card/Card.jsx";
 import FeedbackCarusel from "../components/OtherComponents/Feedback/FeedbackCarusel.jsx";
+import TariffsList from "../components/OtherComponents/Tariffs/TariffsList.jsx";
 
 const HomePage = () => {
 	return (
@@ -15,7 +16,7 @@ const HomePage = () => {
 			<div className="text-title">
 				<h1>Автопостинг в Telegram из любых источников</h1>
 				<p>Настраивай публикации по интересующим темам и экономь время.</p>
-				<DefaultButton path={'/'}>Попробовать бесплатно</DefaultButton>
+				<DefaultButton path={'/'}>Посмотреть пример</DefaultButton>
 			</div>
 			<div className="cards">
 				<Card image={shuttle} title={'Быстрый старт'} body={'Подключи источники, выбери темы и запускай автоматизацию за считанные минуты.'}/>
@@ -26,7 +27,12 @@ const HomePage = () => {
 			</div>
 			<div className="feedback">
 				<div className="feedback-Title">Отзывы наших клиентов</div>
-				<FeedbackCarusel/>
+				<div>
+					<FeedbackCarusel/>
+				</div>
+			</div>
+			<div className="Tariffs">
+				<TariffsList />
 			</div>
 		</div>
 	);

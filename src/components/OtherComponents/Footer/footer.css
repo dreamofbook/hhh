@@ -1,0 +1,33 @@
+.footer {
+    height: 125px;
+    width: 100%;
+    background-color: #000;
+    border-top: 1px solid #333333;
+    align-content: center;
+    margin-top: 50px;
+}
+
+.footer .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+}
+
+.footer .container a{
+    color: #b5b5b5;
+}
+
+.footer .container .mainBox{
+    justify-items: center;
+}
+
+.footer .container .mainBox p{
+    color: #434343;
+    margin-top: 10px;
+}
+
+.footer .container .mainBox a{
+    margin-right: 10px;
+    margin-left: 10px;
+}

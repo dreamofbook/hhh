@@ -1,10 +1,9 @@
 [
   {
-    "Title": "Каталог",
+    "Title": "Тарифы",
     "menuName": "catalog-menu",
     "id": 1,
-    "width": 76,
-    "path": "/catalog",
+    "path": "#tariffs",
     "arr": [
       {
         "text": "Новости и СМИ",
@@ -39,7 +38,6 @@
     "Title": "Проект",
     "menuName": "about-menu",
     "id": 2,
-    "width": 50,
     "arr": [
       {
         "text": "Принцип работы",
@@ -60,7 +58,6 @@
     "Title": "Настройки",
     "menuName": "settings-menu",
     "id": 3,
-    "width": 76,
     "arr": [
       {
         "text": "Настройки бота",

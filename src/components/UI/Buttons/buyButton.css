@@ -1,0 +1,19 @@
+.buyButton{
+    width: max-content;
+    height: max-content;
+    padding: 10px 30px;
+    background: #da8dc2;
+    color: black;
+    border-radius: 30px;
+    transition: 0.3s all ease-in-out;
+}
+
+.buyButton:active{
+    background: #e8e8e8;
+}
+
+.buyButton:hover{
+    background: #e8e8e8;
+    box-shadow:  0 0 10px #a3a3a3;
+    scale: 1.02;
+}

@@ -1,8 +1,9 @@
 .default-button{
     background: #000000;
     color: #ececec;
-    height: 60.5px;
-    width: 240px;
+    height: max-content;
+    width: max-content;
+    padding: 20px 40px;
     border: #333333 solid 1px;
     border-radius: 30px;
     transition: 0.5s all ease-in-out;

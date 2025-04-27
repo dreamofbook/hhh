@@ -1,0 +1,32 @@
+.Switcher{
+    width: 80px;
+    height: 40px;
+    background: #000000;
+    border: 0.5px solid #272727;
+    border-radius: 100px;
+    align-content: center;
+    padding: 5px;
+    box-shadow: 0 0 5px #353535;
+    transition: 0.3s all ease-in-out;
+}
+
+.active{
+    background: #d8d8d8;
+    border: 0.5px solid #272727;
+    box-shadow: 0 0 10px #a6a6a6;
+}
+
+.Switcher .Circle{
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+    background: #d1d1d1;
+    box-shadow: 0 0 3px #a8a8a8;
+    border: none;
+    transition: 0.3s all ease-in-out;
+}
+
+.active .Circle{
+    transform: translateX(40px);
+    background: #1c1c1c;
+}
