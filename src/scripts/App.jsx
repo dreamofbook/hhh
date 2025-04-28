@@ -1,10 +1,10 @@
 import React from 'react';
 import {BrowserRouter, Route, Routes} from "react-router";
 import MainPage from "../Pages/MainPage.jsx";
-import Catalog from "../Pages/Catalog.jsx";
-import ContactPage from "../Pages/ContactPage.jsx";
+import SettingsPage from "../Pages/SettingsPage.jsx";
 import ProfilePage from "../Pages/ProfilePage.jsx";
 import HomePage from "../Pages/HomePage.jsx";
+import AuthPage from "../Pages/AuthPage.jsx";
 
 const App = () => {
 	return (
@@ -12,10 +12,12 @@ const App = () => {
 			<Routes>
 				<Route path={"/"} element={<MainPage/>}>
 					<Route index element={<HomePage/>}/>
-					<Route path="/catalog" element={<Catalog/>}/>
-					<Route path="/project" element={<ContactPage/>}/>
-					<Route path="/settings" element={<ProfilePage/>}/>
+					<Route path="/settings" element={<SettingsPage/>}/>
+					<Route path="/profile" element={<ProfilePage/>}/>
+					<Route path="*" element={<HomePage/>}/>
 				</Route>
+				<Route path="/auth" element={<AuthPage/>}/>
+				<Route path={'/registration'} element={<AuthPage/>}/>
 			</Routes>
 		</BrowserRouter>
 	);

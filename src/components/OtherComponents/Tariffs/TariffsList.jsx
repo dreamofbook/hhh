@@ -1,8 +1,8 @@
 import React from 'react';
 import TariffCard from "./TariffCard.jsx";
 import Switcher from "../../UI/Switcher/Switcher.jsx";
-import './Tariffs.css'
 import arr from './data/tariff.json'
+import './Tariffs.css'
 
 const TariffsList = () => {
 

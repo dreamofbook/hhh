@@ -1,0 +1,93 @@
+.sign-form {
+    font-family: "SF Pro Display Medium", sans-serif !important;
+    margin-top: 20px;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.sign-form .inputs-box{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sign-form .inputs-box input{
+    align-self: center;
+    width: 300px;
+    /*background: #ececec;*/
+    padding: 16px;
+    border-radius: 10px;
+    margin: 10px 10px;
+    transition: 0.3s all ease-in-out;
+}
+
+.sign-form .inputs-box input::placeholder{
+    color: #c1c0c0;
+}
+
+.sign-form .inputs-box input:focus{
+    background: rgba(161, 161, 161, 0.2);
+}
+
+.sign-form .inputs-box input{
+    font-family: "SF Pro Display Regular", sans-serif !important;
+    font-size: 18px;
+    color: #ececec;
+
+    background: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+
+    box-shadow:
+            inset -0.75px -0.5px rgba(255, 255, 255, 0.1),
+            inset +0.75px +0.5px rgba(255, 255, 255, 0.025),
+            inset 3px 2px 5px rgba(0, 0, 0, 0.25),
+            inset 0 0 10px 5px rgba(255, 255, 255, 0.025),
+            inset 0 0 40px 5px rgba(255, 255, 255, 0.025);
+
+    position: relative;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.sign-form .inputs-box .error-text{
+    font-family: "SF Pro Display Regular", sans-serif !important;
+    font-size: 16px;
+    color: #ff5e5e;
+}
+
+.sign-form .button{
+    width: auto;
+    height: auto;
+    padding: 16px 60px;
+    border-radius: 40px;
+
+    margin-top: 10px;
+
+    box-shadow:
+            inset -0.75px -0.5px rgba(255, 255, 255, 0.1),
+            inset +0.75px +0.5px rgba(255, 255, 255, 0.025),
+            inset 3px 2px 2px rgba(0, 0, 0, 0.25),
+            inset 0 0 10px 5px rgba(255, 255, 255, 0.025),
+            inset 0 0 40px 5px rgba(255, 255, 255, 0.025);
+
+    position: relative;
+    overflow: hidden;
+
+    background: rgb(236, 236, 236);
+    color: #000000;
+    cursor: default;
+    transition: 0.3s all ease-in-out;
+}
+
+.sign-form .button:disabled{
+    background: rgba(0, 0, 0, 0.16);
+    color: #535353;
+    cursor: default;
+}
+
+.sign-form .button{
+
+}

@@ -1,35 +1,17 @@
 [
   {
     "Title": "Тарифы",
-    "menuName": "catalog-menu",
+    "menuName": "tariff-menu",
     "id": 1,
-    "path": "#tariffs",
+    "path": "/tariff",
     "arr": [
       {
-        "text": "Новости и СМИ",
+        "text": "Недельные тарифы",
         "path": "/catalog#news"
       },
-
       {
-        "text": "Бизнес и финансы",
-        "path": "/catalog#busines"
-      },
-
-      {
-        "text": "Образование",
-        "path": "/catalog#study"
-      },
-      {
-        "text": "Блогеры",
-        "path": "/catalog#celebrity"
-      },
-      {
-        "text": "Спорт и мотивация",
-        "path": "/catalog#sport"
-      },
-      {
-        "text": "Технологии IT",
-        "path": "/catalog#technology"
+        "text": "Месячные тарифы",
+        "path": "/catalog#news"
       }
     ]
   },
@@ -38,6 +20,7 @@
     "Title": "Проект",
     "menuName": "about-menu",
     "id": 2,
+    "path": "/about",
     "arr": [
       {
         "text": "Принцип работы",
@@ -58,20 +41,21 @@
     "Title": "Настройки",
     "menuName": "settings-menu",
     "id": 3,
+    "path": "/settings",
     "arr": [
       {
         "text": "Настройки бота",
-        "path": "/settings#bot"
+        "path": "/settings/bot"
       },
 
       {
         "text": "Настройки профиля",
-        "path": "/settings#profile"
+        "path": "/settings/profile"
       },
 
       {
         "text": "Поддержка",
-        "path": "/settings#support"
+        "path": "/support"
       }
     ]
   }

@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Catalog = () => {
+const SettingsPage = () => {
 	return (
 		<div>
 			
@@ -8,4 +8,4 @@ const Catalog = () => {
 	);
 };
 
-export default Catalog;
+export default SettingsPage;
