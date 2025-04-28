@@ -59,6 +59,8 @@
 }
 
 .sign-form .button{
+    font-family: "SF Pro Display Medium", sans-serif !important;
+    font-size: 18px;
     width: auto;
     height: auto;
     padding: 16px 60px;
